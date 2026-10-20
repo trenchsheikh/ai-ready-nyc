@@ -25,3 +25,9 @@ button,.button,.btn{font-family:"Times New Roman",Times,serif}
 
 /* Keep all interactive button labels consistent with the site typeface. */
 button, .button, .btn, [role="button"], input[type="button"], input[type="submit"] {font-family:'DM Sans',Arial,sans-serif!important;font-weight:500;letter-spacing:normal}
+
+/* Partners: keep the official NYCFC crest crisp without disrupting strip alignment. */
+.partnersLine .partnerLogo{width:72px;height:72px;max-width:100%;object-fit:contain;display:block;flex-shrink:0}
+@media(max-width:700px){.partnersLine .partnerLogo{width:58px;height:58px}}
+/* One consistent font for all action labels, links styled as buttons, and native controls. */
+button,button *,a.button,a.button *,a.btn,a.btn *,[role="button"],input[type="button"],input[type="submit"]{font-family:'DM Sans',Arial,sans-serif!important;font-weight:500;letter-spacing:normal}
