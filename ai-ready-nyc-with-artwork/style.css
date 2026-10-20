@@ -31,3 +31,7 @@ button, .button, .btn, [role="button"], input[type="button"], input[type="submit
 @media(max-width:700px){.partnersLine .partnerLogo{width:58px;height:58px}}
 /* One consistent font for all action labels, links styled as buttons, and native controls. */
 button,button *,a.button,a.button *,a.btn,a.btn *,[role="button"],input[type="button"],input[type="submit"]{font-family:'DM Sans',Arial,sans-serif!important;font-weight:500;letter-spacing:normal}
+
+/* Compact NYCFC crest in collaborator row. */
+.partnersLine .partnerLogo.nycfcLogo{width:52px;height:52px}
+@media(max-width:700px){.partnersLine .partnerLogo.nycfcLogo{width:44px;height:44px}}
