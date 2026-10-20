@@ -1,5 +1,5 @@
 import './style.css';
-import heroImage from './assets/hero.webp';
+import heroImage from './assets/skyline-2026.png';
 import footballImage from './assets/football.webp';
 import creativeImage from './assets/creative.webp';
 import techImage from './assets/tech.webp';
